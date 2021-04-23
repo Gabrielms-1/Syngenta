@@ -1,10 +1,10 @@
 import cv2
 import numpy as np
-import os
+
+img = cv2.imread('Syngenta.bmp', -1)
 
 BGRA = cv2.cvtColor(img,cv2.COLOR_BGR2BGRA) 
 print(BGRA.shape)
-
 
 redChannel = BGRA[:,:,2]
 redImg = np.zeros(img.shape)
