@@ -17,10 +17,10 @@ Também resolvi utilizar a biblioteca **Numpy** para confirmar o cálculo usando
 Para isso, bastou apenas converter a imagem num Array do Numpy, retornando um Array com todos os valores RGB presentes em toda a imagem.
 Com isso bastou apenas a manipulação desse array, transformando-o em uma matriz de ordem _ix3_ (quantidade de linhas desconhecida x 3 colunas) e removendo os arrays duplicados.
 Tendo os valores de pixels únicos em uma matriz, bastou apenas definir quais posições seriam correspondentes a cada cor e imprimir esse valores.
->Preto  =  [0 0 0]
->Verde  =  [ 96 192   0]
->Branco =  [255 255 255]
->Quantidade de pixels pretos:   125236
->Quantidade de pixels verdes:   298
->Quantidade de pixels brancos:  466
+><p>Preto  =  [0 0 0]</p>
+><p>Verde  =  [ 96 192   0]</p>
+><p>Branco =  [255 255 255]</p>
+><p>Quantidade de pixels pretos:   125236</p>
+><p>Quantidade de pixels verdes:   298</p>
+><p>Quantidade de pixels brancos:  466</p>
 
