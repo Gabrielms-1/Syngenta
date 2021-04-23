@@ -2,7 +2,7 @@ Processo Seletivo Syngenta Digital
 
 # Etapa 1:
 
-Usando Python puro foi possível transformar cada pixel da imagem em um vetor, adicionar a uma lista e assim identificar os valores RGB de cada um.
+Usando a biblioteca de imagens do Python (PIL) foi possível transformar cada pixel da imagem em um vetor, adicionar a uma lista e assim identificar os valores RGB de cada um.
 Com isso, bastou apenas contar quantas vezes cada vetor de pixel se repete durante toda a imagem.
 Bastou apenas fixar os valores RGB do preto (0, 0, 0) e do branco (255, 255, 255) que podem ser explicitamente vistos na imagem. Como há apenas 3 cores,
 os pixels restantes seriam obrigatoriamente verdes, resultando assim num total de **298 pixels verdes**
