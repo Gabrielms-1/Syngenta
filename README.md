@@ -7,10 +7,10 @@ Com isso, bastou apenas contar quantas vezes cada vetor de pixel se repete duran
 Bastou apenas fixar os valores RGB do preto (0, 0, 0) e do branco (255, 255, 255) que podem ser explicitamente vistos na imagem. Como há apenas 3 cores,
 os pixels restantes seriam obrigatoriamente verdes, resultando assim num total de **298 pixels verdes**
 
->As cores encontradas foram:  [(0, 0, 0), (96, 192, 0), (255, 255, 255)]
->Quantidade de pixels verde:  298
->Quantidade de pixels preto:  125236
->Quantidade de pixels branco:  466
+><p>As cores encontradas foram:  [(0, 0, 0), (96, 192, 0), (255, 255, 255)]</p>
+><p>Quantidade de pixels verde:  298</p>
+><p>Quantidade de pixels preto:  125236</p>
+><p>Quantidade de pixels branco:  466</p>
 
 
 Também resolvi utilizar a biblioteca **Numpy** para confirmar o cálculo usando uma segunda metodologia.
