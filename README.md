@@ -35,4 +35,4 @@ Nesse método tentei utilizar método de detecção de bordas do OpenCV para ver
 Foram utilizados o método LaPlace e Sobel no eixo X e no eixo Y.
 
 ### Método 3: Separação de canais de cores (Sem sucesso)
-Nesse método tentei separar os 3 canais de cores (Vermelho, Verde e Azul) usando Numpy em criando 3 novas imagens distintas usando OpenCV para ver se revelava alguma informação em apenas 1 canal de cor.
+Nesse método tentei separar os 3 canais de cores (Vermelho, Verde e Azul) usando Numpy em criando 3 novas imagens distintas usando OpenCV para ver se revelava alguma informação em apenas 1 canal de cor. (Imagens na pasta da Etapa 2)
