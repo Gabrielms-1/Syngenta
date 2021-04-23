@@ -30,8 +30,8 @@ Para a segunda etapa, usei 3 métodos diferentes.
 ### Método 1: Análise de bytes (Sem sucesso)
 Nesse método, converti a imagem num vetor de bytes, em seguida converti em uma lista e converti cada valor em char.
 
-### Método 2: Edge Detection usando OpenCV (Sem sucesso)
-Nesse método tentei utilizar método de detecção de bordas do OpenCV para ver as bordas formavam alguma imagem.
+### Método 2: Edge Detection usando OpenCV e Matplotlib (Sem sucesso)
+Nesse método tentei utilizar método de detecção de bordas do OpenCV para ver as bordas formavam alguma imagem e a biblioteca Matplotlib para gerar as imagens modificadas na tela.
 Foram utilizados o método LaPlace e Sobel no eixo X e no eixo Y.
 
 ### Método 3: Separação de canais de cores (Sem sucesso)
