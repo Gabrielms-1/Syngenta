@@ -24,3 +24,15 @@ Tendo os valores de pixels únicos em uma matriz, bastou apenas definir quais po
 ><p>Quantidade de pixels verdes:   298</p>
 ><p>Quantidade de pixels brancos:  466</p>
 
+# Etapa 2:
+Para a segunda etapa, usei 3 métodos diferentes.
+
+### Método 1: Análise de bytes (Sem sucesso)
+Nesse método, converti a imagem num vetor de bytes, em seguida converti em uma lista e converti cada valor em char.
+
+### Método 2: Edge Detection usando OpenCV (Sem sucesso)
+Nesse método tentei utilizar método de detecção de bordas do OpenCV para ver as bordas formavam alguma imagem.
+Foram utilizados o método LaPlace e Sobel no eixo X e no eixo Y.
+
+### Método 3: Separação de canais de cores (Sem sucesso)
+Nesse método tentei separar os 3 canais de cores (Vermelho, Verde e Azul) usando Numpy em criando 3 novas imagens distintas usando OpenCV para ver se revelava alguma informação em apenas 1 canal de cor.
